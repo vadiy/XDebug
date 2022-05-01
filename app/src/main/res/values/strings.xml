@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">XDebug</string>
+    <string name="app_name_dis">设置应用调试模式</string>
+</resources>

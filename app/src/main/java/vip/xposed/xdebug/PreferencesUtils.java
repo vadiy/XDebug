@@ -16,15 +16,17 @@ public class PreferencesUtils {
             instanc = new XSharedPreferences(PreferencesUtils.class.getPackage().getName(), "config");
             instanc.makeWorldReadable();
         } else {
+
             instanc.reload();
         }
         return instanc;
     }
 
-    //用于设置连接服务器的地址
+    //设置需要调试的包名
     public static String getDebugPackageName() {
         return getInstanc().getString(DEBUGPACKAGENAME, "");
     }
+
 
 
 }

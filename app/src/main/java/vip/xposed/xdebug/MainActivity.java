@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
 
         mSharedPreferences = getSharedPreferences("config", Activity.MODE_WORLD_READABLE);
         packages = getPackages();
-
         setOnItemEvent();
 
 
